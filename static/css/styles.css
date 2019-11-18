@@ -1,0 +1,68 @@
+body{
+    background-color: #fafafa;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .navbar-brand, .weokam{
+    font-family: 'Lobster Two';
+    font-size: x-large;
+  }
+  
+  .hide{
+  
+    overflow-y: scroll;
+    height:200px;
+  
+  }
+  .yu{
+    text-align: center;
+    font-family: 'Lobster Two', sans-serif;
+  }
+  @media screen and (max-width:900px){
+    .hide{
+      color: black;
+  
+    }
+    .nosho{
+      display: none;
+      position: sticky;
+      width: 100%;
+      margin-top:0;
+    }
+  }
+  .text-muted{
+    display: none;
+  }
+  .panel-body{
+    border: 2px solid red;
+  }
+  .work{
+    height: 600px;
+    overflow-y: scroll;
+  }
+  .work::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .yass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .rounded-circle{
+    border: 1px solid red;
+  }
+  .photo{
+    width: 40rem;
+  }
+  
+  @media only screen and (max-width:900px){
+    .responsive{
+      display: none;
+    }
+    .photo{
+      width: 100%;
+    }
+  }
+  
