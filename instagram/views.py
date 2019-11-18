@@ -10,7 +10,7 @@ from django.contrib.auth.models import User
 def welcome(request):
     current_user =request.user
     posts = Image.images_all()
-    profile = Profile.objects.get(username=current_user)
+    # profile = Profile.objects.get(username=current_user)
     users = Profile.objects.all()
     to_follow = User.objects.all().exclude(id=request.user.id)
     return render(request, 'index.html', {"posts":posts,"profile":profile, "users":users, "views":to_follow})
@@ -59,7 +59,7 @@ def new_profile(request):
 
 def profile(request):
     current_user = request.user
-    # profile = Profile.objects.get(username=current_user)
+    profile = Profile.objects.get(username=current_user)
     posts=Image.objects.filter(profile_id=current_user.id)
     return render(request, 'profile-page.html',{"profile":profile,"posts":posts})
 
