@@ -32,3 +32,11 @@ NO known Bugs.
 | Show image details below image | Click image | Zooms with deets |
 | Search by username| search username 'sam , wendo , brayo'| returns images posted by 'sam , wendo , brayo' |
 
+## Technologies and Main Languages Used
+* Python
+* Bootstrap
+* WhiteNoise
+* Django
+* PostgreSQL Database
+* CSS
+
