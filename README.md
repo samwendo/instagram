@@ -21,3 +21,14 @@ This is a clone of the famous instagram application for posting, sharing comment
 
 ## Known Bugs
 NO known Bugs.
+
+## Behavior Driven Development
+
+| Behaviour| Input | Output |
+| ------------- | ----------------- | ------------------ |
+| Display all photos on database  | user   | Loads all photos  |
+| Save uploaded images | Upload image | Saves image |
+| Update images as app user | update image at from navbar 'update' option | Updates |
+| Show image details below image | Click image | Zooms with deets |
+| Search by username| search username 'sam , wendo , brayo'| returns images posted by 'sam , wendo , brayo' |
+
