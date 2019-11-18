@@ -40,6 +40,9 @@ NO known Bugs.
 * PostgreSQL Database
 * CSS
 
+## Dependencies
+* pip
+
 ## Support and contact details
 Please reach out to me at 'wendosam21@gmail.com' for any queries concerning this or any other code.
 
