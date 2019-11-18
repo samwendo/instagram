@@ -43,3 +43,6 @@ NO known Bugs.
 ## Support and contact details
 Please reach out to me at 'wendosam21@gmail.com' for any queries concerning this or any other code.
 
+### License
+MIT LICENSE [SAMWENDO][2019]
+
